@@ -7,6 +7,7 @@
             Console.WriteLine("Advent Of Code 2022");
             Execute(new Day1.Day1A(), new Day1.Day1B());
             Execute(new Day2.Day2A(), new Day2.Day2B());
+            Execute(new Day3.Day3A(), new Day3.Day3B());
         }
 
         private static void Execute(params IDay[] days)
